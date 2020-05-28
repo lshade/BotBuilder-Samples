@@ -1,4 +1,4 @@
-﻿namespace Gov_Bot_Auth_DL_Secure_Site_MVC_Core.Models
+﻿namespace AzUsGov.DirectLine.Web.Models
 {
     public class DirectLineConversation
     {

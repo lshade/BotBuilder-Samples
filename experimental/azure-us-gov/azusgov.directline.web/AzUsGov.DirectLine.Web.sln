@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gov_Bot_Auth_DL_Secure_Site_MVC_Core", "Gov_Bot_Auth_DL_Secure_Site_MVC_Core.csproj", "{E7C24E2A-E65E-4409-AC09-D232ECF0C5A8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AzUsGov.DirectLine.Web", "AzUsGov.DirectLine.Web.csproj", "{EC0A4781-8293-4F12-8BD1-27650772EBD3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,10 +11,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{E7C24E2A-E65E-4409-AC09-D232ECF0C5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E7C24E2A-E65E-4409-AC09-D232ECF0C5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E7C24E2A-E65E-4409-AC09-D232ECF0C5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E7C24E2A-E65E-4409-AC09-D232ECF0C5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC0A4781-8293-4F12-8BD1-27650772EBD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC0A4781-8293-4F12-8BD1-27650772EBD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC0A4781-8293-4F12-8BD1-27650772EBD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC0A4781-8293-4F12-8BD1-27650772EBD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

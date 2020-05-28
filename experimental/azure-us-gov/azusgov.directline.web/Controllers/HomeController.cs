@@ -1,14 +1,14 @@
 ﻿using System;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
-using Gov_Bot_Auth_DL_Secure_Site_MVC_Core.Models;
+using AzUsGov.DirectLine.Web.Models;
 using System.Net.Http;
 using Newtonsoft.Json;
 using Microsoft.Extensions.Configuration;
 using System.Net.Http.Headers;
 using System.Text;
 
-namespace Gov_Bot_Auth_DL_Secure_Site_MVC_Core.Controllers
+namespace AzUsGov.DirectLine.Web.Controllers
 {
     public class HomeController : Controller
     {

@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace Gov_Bot_Auth_DL_Secure_Site_MVC_Core
+namespace AzUsGov.DirectLine.Web
 {
     public class Program
     {

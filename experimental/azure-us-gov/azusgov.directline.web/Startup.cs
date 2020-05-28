@@ -12,7 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 
-namespace Gov_Bot_Auth_DL_Secure_Site_MVC_Core
+namespace AzUsGov.DirectLine.Web
 {
     public class Startup
     {
