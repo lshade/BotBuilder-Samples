@@ -9,3 +9,10 @@ This is different than embedding a bot running in Azure Cloud because:
 # Instructions
 
 To run the solution with your bot, change the value of the `"DirectLineSecret"` in `appsettings.json` to a secret key from the Direct Line channel configuration on your bot in Azure US Gov.
+
+# Components
+
+1. Secret value stored in `appsettings.json`
+1. `services.AddSingleton(new HttpClient());` in `Startup.cs`
+1. `HomeController.Index()` calls the Direct Line API to get the token and send it to the Index View
+1. `Index.cshtml` uses the `userId` and `token` from the controller to render the bot using JavaScript
