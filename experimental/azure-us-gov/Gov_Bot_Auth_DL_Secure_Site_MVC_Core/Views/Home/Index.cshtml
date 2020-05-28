@@ -1,0 +1,16 @@
+﻿@model Gov_Bot_Auth_DL_Secure_Site_MVC_Core.Models.WebChatConfig
+@{
+    ViewData["Title"] = "Home Page";
+}
+<div id="webchat" role="main" />
+<head>
+    <script src="https://cdn.botframework.com/botframework-webchat/latest/webchat.js"></script>
+</head>
+<body>
+    <script>
+      window.WebChat.renderWebChat({
+          directLine: window.WebChat.createDirectLine({ token: '@Model.Token', domain: 'https://directline.botframework.azure.us/v3/directline' }),
+          userID: '@Model.UserId'
+      }, document.getElementById('webchat'));
+    </script>
+</body>
